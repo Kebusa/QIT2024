@@ -5,7 +5,7 @@ let name = "Asubek" //string
 let age = "19" //number
 let surname = "Erakyl";
 let scool = "24 lyceum";
-let birth = [12, 4, 2005];
+let birth = "12.04.2005";
 
 
 let isStudent = true //boolean
