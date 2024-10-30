@@ -8,7 +8,7 @@ let grades = [3, 4, 5, 9] //Array
 let isStudent = true //boolean
 let hasLicense = false //boolean
 
-console.log("onyn aty", name);
-console.log("jasy", age);
-console.log("onyn bagasy", grades);
+console.log("onyn aty:", name);
+console.log("jasy:", age);
+console.log("onyn bagasy:", grades);
 
