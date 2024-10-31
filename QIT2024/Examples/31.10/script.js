@@ -56,11 +56,20 @@
 // console.log(total % 2)
 
 
+// let a = 10
+// let b = 5 
+// let c = 5
+// let z = 7
+
+// let res = ((a * b) / c) / (z - 3)
+ 
+// console.log(res % 2);
+
+
 let a = 10
 let b = 5 
-let c = 5
-let z = 7
+let c = 7
 
-let res = ((a * b) / c) / (z - 3)
- 
-console.log(res % 2);
+let result = ((a / b) * 45) / ((c - b - a) / 10) + 56
+
+console.log(result)
