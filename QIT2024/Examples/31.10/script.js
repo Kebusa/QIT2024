@@ -66,10 +66,50 @@
 // console.log(res % 2);
 
 
-let a = 10
-let b = 5 
-let c = 7
+// let a = 10
+// let b = 5 
+// let c = 7
 
-let result = ((a / b) * 45) / ((c - b - a) / 10) + 56
+// let result = ((a / b) * 45) / ((c - b - a) / 10) + 56
 
-console.log(result)
+// console.log(result)
+
+// let a = 20
+// let b = 10
+
+// let p = (a + b) * 2
+
+// console.log(p)
+
+// let m = 9
+// const g = 10
+
+// let F = m * g 
+
+// console.log(F)
+
+// var x = 105
+// var y = 50 
+
+// if (x > y ) {
+//     console.log(x, "ulken")
+
+// }
+// else{
+//     console.log(y, "ulken")
+// }
+
+// var x = "jok"
+
+// if (x == 100) {
+//     console.log("keremet")
+// }
+// else if(x >= 80){
+//     console.log("jaman emes")
+// }
+// if(x <= 40){
+//     console.log("tsgy tyrys")
+// }
+// else{
+//     console.log("???")
+// }
