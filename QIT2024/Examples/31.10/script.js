@@ -63,4 +63,4 @@ let z = 7
 
 let res = ((a * b) / c) / (z - 3)
  
-console.log(res)
+console.log(res % 2)
