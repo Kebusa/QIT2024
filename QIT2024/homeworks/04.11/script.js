@@ -16,9 +16,17 @@ else{
 
 
 //task3
+var temp = 25
 
-
-
+if(temp >= 20 && temp <= 30){
+    console.log("Орта температура")
+}
+else if( temp <= 20){
+    console.log("Суық")
+}
+else{
+    console.log("Ыстық")
+}
 
 //task4
 var a = 50
