@@ -15,7 +15,7 @@
 // }
 
 var a = prompt("Бірінші сан жазыңыз: ")
-var b = prompt("есептеу символы: ")
+var b = prompt("Eсептеу символы: ")
 var c = prompt("Екінші сан жазыңыз: ")
 var total = 0 ;
 
