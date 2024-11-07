@@ -17,20 +17,20 @@
 var a = prompt("Бірінші сан жазыңыз: ")
 var b = prompt("Eсептеу символы: ")
 var c = prompt("Екінші сан жазыңыз: ")
-var total = 0 ;
+var total = 0;
 
 switch(b){
     case "/":
-        total += a / c
+        total = a / c
     break
     case "*":
-        total += a * c
+        total = a * c
     break
     case "+":
-        total += a + c
+        total = a + c
     break
     case "-":
-        total += a - c
+        total = a - c
     break
     default:
         alert("Тек сан жазыңыз!")
