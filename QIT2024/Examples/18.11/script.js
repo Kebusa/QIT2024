@@ -99,13 +99,39 @@
 // console.log((findDegree(number, darege)));
 
 
-let number = +prompt("Enter youre number:")
 
-function findFactorial(a){
-    let result = 1
-    for(let i = 1; i <= a; i++ ){
-        result *= i 
+
+// let number = +prompt("Enter youre number:")
+
+// function findFactorial(a){
+//     let result = 1
+//     for(let i = 1; i <= a; i++ ){
+//         result *= i 
+//     }
+//     return result
+// }
+// console.log(findFactorial(number));
+
+
+
+let num1 = +prompt("Enter 1st number:")
+let num2 = +prompt("Enter 2nd number:")
+
+
+function findmax(a, b){
+    if(a < b){
+      return a + " kishi " + "\n" + b + " Ulken "
     }
-    return result
+    else if(b < a){
+        return b + " kishi " + "\n" + a + " Ulken "
+    }
+    else if (a == b){
+        return a + " ten " +  + b  
+    }
+    else{
+        console.log("write only number")
+    }
 }
-console.log(findFactorial(number));
+
+
+console.log(findmax(num1,num2))
