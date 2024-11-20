@@ -1,5 +1,5 @@
 
-var pass = +prompt("1 ден 100 ге дейін құпия сөз енгізіңіз:")
+var pass = +prompt(" 1 ден 100 ге дейін құпия сөз енгізіңіз:")
 
 function passTabu(){
     while(true){
