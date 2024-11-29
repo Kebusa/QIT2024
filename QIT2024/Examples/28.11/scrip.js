@@ -3,7 +3,7 @@ const fillArray = ()=> {
 
 
     while(true){
-        let thing = prompt("Zat engiz")
+        let thing = prompt("San engiz")
         if(thing === "stop"){
             break;
         }
