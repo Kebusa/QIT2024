@@ -8,15 +8,15 @@ const book = {
         return `Сіз ${this.title} кітабын ${this.author} жазған оқып жатырсыз`;
     },
     toogleReadStatus: function(){
-        this.isRead = true
-        return `Оқу күйі жаңартылды ${this.isRead}`;
+        this.isRead = !this.isRead
+        return this.isRead ;
     }
 }
 console.log(book);
 
 console.log(book.readBook());
 
-console.log(book.toogleReadStatus());
+console.log(book.toogleReadStatus ? `Сіз оқығансыз ` : `Сіз оқымағансыз ` );  //  ?  true;    :  false;
 
 
 
