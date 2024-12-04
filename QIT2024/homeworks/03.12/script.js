@@ -48,5 +48,5 @@ function findDistrict() {
     return city.districts.filter(fin => fin.name == find)
 }
 
-console.log(findDistrict());
+console.log(findDistrict()); 
 
