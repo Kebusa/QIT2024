@@ -177,3 +177,31 @@
 
 
 
+
+// const library = {
+//     books: [{title:"Ер төстік", author:"Қазақ ертегілері", available: true},
+//     {title:"Алтын адам", author:"Нұрлан Есім", available: false},],
+//     borrowBook: function(){
+//         if(this.books.available == true){
+//             console.log(`Сіз ${this.books[0].title} ала аласыз! `);
+//         }
+//         else if(this.books.available != true){
+//             console.log(`Сіз ${this.books[1].title} ала алмайсыз `);
+//         }
+//     }
+
+// }
+// library.borrowBook()
+
+
+
+// const students = {
+//     groups:{
+//         group1:[{name:"Айгерім"},{name:"Ерлан"},{name:"Ғаныш"},{name:"Қайсар"}],
+//         group2:[{name:"Меруерт"},{name:"Қайсар"},{name:"Дастан"},{name:"Азат"}],
+//     },
+//     groupAllStudents: function(){
+//         return ` Бірінші группа студенттері: ${this.groups.group1.flatMap(student => student.name)}`
+//     }
+// }
+// console.log(students.groupAllStudents());
