@@ -20,20 +20,26 @@ function   mektepKosu() {
 
     school.push(newSchool)
 }
-// mektepKosu()
-// console.log(school);
+mektepKosu()
+console.log(school);
 
 function sanAuystyru() {
     school[0].students = 800
 }
-// sanAuystyru()
-// console.log(school);
+sanAuystyru()
+console.log(school);
 
-function obshiSany() {
-    return city.districts.flatMap(pop => pop.population )
+function obshiSanDirect() {
+     return city.districts.reduce((total,pop) => total + pop.population, 0)
+    
+}
+function obshiSanStudent() {
+    return school.reduce((total,pop) => total + pop.students, 0)
 }
 
-console.log(obshiSany());
+console.log(obshiSanDirect());
+console.log(obshiSanStudent());
+
 
 
 function findDistrict() {
@@ -42,5 +48,5 @@ function findDistrict() {
     return city.districts.filter(fin => fin.name == find)
 }
 
-// console.log(findDistrict());
+console.log(findDistrict());
 
