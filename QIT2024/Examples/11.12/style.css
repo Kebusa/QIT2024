@@ -1,0 +1,46 @@
+#test{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s;
+}
+#box {
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+#cube{
+    margin-left: 300px;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;  
+    border-radius: 18px;
+    transition: all 0.5s;
+}
+#colorChange{
+    margin-left: 290px;
+    background-color: black;
+    color:white
+}
+#stokColor{
+    background-color: black;
+    color:white
+}
+
+#square{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    margin: 50px;
+    display: flex;
+    justify-self: center;
+    transition: all 0.5s;
+}
+#stockSquare{
+    width: 200px;
+    margin-left: 300px;
+    background-color: black;
+    color: white;
+}
