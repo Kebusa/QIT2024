@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contain">
+    <div id="errorMessage">
+        error
+    </div>
+    <form  id="registerForm">
+        <h1>Заяавка</h1>
+        <input type="text" placeholder="Имя" id="name"> 
+        <input type="text" placeholder="Фамилия" id="surName">
+
+        <h2>Ваш пол:</h2>
+        <label for="gender"> <input type="radio" name="gerder" id="gender" value="">Мужской</label>
+        <label for="gender"> <input type="radio" name="gerder" id="gender" value="">Женский</label>
+
+        <select  id="time">
+            <option value="morning">Завтрак</option>
+            <option value="aternoon">После обеда</option>
+            <option value="evening">Вечер</option>
+        </select>
+
+        <button type="submit">Отправить</button>
+
+    </form>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

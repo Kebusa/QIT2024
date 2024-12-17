@@ -1,0 +1,53 @@
+body{
+    border-color: #cfcded;
+    min-height: 300vh;
+}
+#arrow{
+    width: 25px;
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
+    position: fixed;
+    top: 70vh;
+    left: 3%;
+    transition: all 0.5s;
+    text-decoration: none;
+    background-color: aqua;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+#head{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
+    width: 80vw;
+    height: 9vh;
+    display: flex;
+    border: solid 1px rgb(204, 199, 199);
+    background-color: rgb(204, 199, 199);
+    justify-content: space-between;
+    border-radius: 30px;
+    position: fixed ;
+}
+nav{
+    height: 100%;
+    align-content: center;
+}   
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    
+}
+#icons{
+    display: flex;
+}
+#signUp{
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 7px;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: #cfcfed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#registerForm{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px 10px;
+    gap: 20px;
+    border: #cfcfed 1px solid;
+    border-radius: 15px;
+}
+#registerForm input[type = 'text']{
+    width: 300px;
+    height: 30px;
+}
+#errorMessage{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translateY(-100vh);
+    transition: all 0.5s;
+}
