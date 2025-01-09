@@ -19,7 +19,8 @@ resetButton.addEventListener('click', (e) => {
     cards.forEach(card => {
         card.classList.remove('flipped')
     })
-    timer.textContent = "Timer 0 seconds"
+    clearInterval(timerInterval)
+    timer.textContent = "Time: 0 seconds"
     result.textContent = "RESULT"
     shuffCards()
 })
@@ -38,6 +39,8 @@ function startTimer() {
 function stopTimer() {
     clearInterval(setInterval)
     result.textContent = `Game Over! You finished in ${seconds} seconds!`
+    clearInterval(timerInterval)
+    timer.textContent = "Time: 0 seconds"
 }
 
 cards.forEach(card => {
