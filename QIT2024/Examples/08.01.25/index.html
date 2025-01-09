@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="btns">
+        <button id="startButton">START</button>
+        <button id="resetButton">RESET</button>
+    </div>
+    <div id="timer">Timer: 0 seconds</div>
+    <div id="result">RESULT</div>
+    <div class="wrapper">
+        <ul class="cards">
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/800px-Flag_of_Georgia.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/800px-Flag_of_Georgia.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://www.france.promotour.info/symbole/images/drapeau006.jpg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://www.france.promotour.info/symbole/images/drapeau006.jpg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/250px-Flag_of_Ukraine.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://www.akorda.kz/assets/media/flag.jpg" alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://www.akorda.kz/assets/media/flag.jpg   " alt="">
+                </div>
+            </li>
+            <li class="card">
+                <div class="view front-view">
+                    <img src="https://media.istockphoto.com/id/1398132096/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%BD%D0%B0%D0%BA.jpg?s=612x612&w=0&k=20&c=GyugC3Y0emjZQIqjGKfMZ3krvV6MaxEhMR1niG_-uCA=" alt="">
+                </div>
+                <div class="view back-view">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" alt="">
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

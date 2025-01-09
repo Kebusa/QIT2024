@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    border-radius: 18px;
+    background-color: chocolate;
+}
+.cards, .card, .view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .front-view img{
+    width: 110px;
+}
+.card .back-view img{
+    width: 110px;
+}
+.cards{
+    width: 800px;
+    height: 700px;
+    flex-wrap: wrap;
+}
+.cards .card{
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    width: calc(100%/4);
+    height: calc(100%/4);
+}
+
+.card .view{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius:18px;
+    backface-visibility: hidden;
+}
+.card .back-view{
+    transform: rotateY(-180deg);
+}
+
+
+
+.btns{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+}
+#startButton, #resetButton{
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    border: none;
+}
+#startButton{
+    background-color: green;
+}
+#resetbutton{
+    background-color: yellow;
+}
+#timer{
+    position: absolute;
+    top: 20px;
+    left: 43%;
+    font-size: 25px;
+    color: white;
+}
+#result{
+    position: absolute;
+    top: 50px;
+    left: 43%;
+    font-size: 25px;
+    color: yellow;
+}
+.card{
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+.flipped{
+    transform: rotateY(180deg);
+}
