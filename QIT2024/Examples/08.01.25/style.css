@@ -71,7 +71,7 @@ body{
 #startButton{
     background-color: green;
 }
-#resetbutton{
+#resetButton{
     background-color: yellow;
 }
 #timer{
@@ -94,4 +94,8 @@ body{
 }
 .flipped{
     transform: rotateY(180deg);
+}
+#startButton:hover, #resetButton:hover{
+    color:white;
+    font-weight: bold;
 }
