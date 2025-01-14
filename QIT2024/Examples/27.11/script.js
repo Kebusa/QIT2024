@@ -123,11 +123,11 @@
 // console.log(bolu);
 
 
-let kala = prompt("kai kalada boldynyz")
+// let kala = prompt("kai kalada boldynyz")
 
-let mass = kala.split(", ")
+// let mass = kala.split(", ")
 
-console.log(mass.length + " Kalada boldynyz");
+// console.log(mass.length + " Kalada boldynyz");
 
 
 
