@@ -15,16 +15,38 @@
 
 
 
-function fetchData(params) {
-    fetch('https://jsonplaceholder.typecode.com/posts/5')
-    .then(response => response.json())
-    .then(data =>{
-        const postTitle = data.title
-        const postBody = data.body 
+// function fetchData(params) {
+//     fetch('https://jsonplaceholder.typicode.com/posts/5')
+//     .then(response => response.json())
+//     .then(data =>{
+//         const postTitle = data.title
+//         const postBody = data.body 
         
-        document.body.innerHTML  =` 
-        <h1>Загаловок поста ${postTitle}</h1>
-        <p>Содержание ${postBody}</p>`})
+//         document.body.innerHTML  =` 
+//         <h1>Загаловок поста: ${postTitle}</h1>
+//         <p>Содержание: ${postBody}</p>`})
     
-}
-fetchData()
+// }
+// fetchData()
+
+
+const key = 'https://dog.ceo/api/breeds/image/random'
+const button = document.getElementById('button')
+const image = document.getElementById('image') 
+
+button.addEventListener('click', () => {
+        fetchData()
+})
+
+function fetchData() {
+   fetch(key)
+    .then(response => response.json())
+    .then(data => {
+       image.src = data.message
+
+    })
+    .catch(error => "404" + error)
+};
+
+
+
