@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#timer{
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    padding: 30px;
+    background-color:rgb(239, 239, 174);
+    border-radius: 12px;
+    text-align: center;
+}
+#startButton, #resetButton{
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 20px rgb(158, 230, 233),
+                inset 1px 1px 20px rgb(158, 230, 233);
+    border: solid rgb(158, 230, 233);
+    background-color: brown;
+}
+
