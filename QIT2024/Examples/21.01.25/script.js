@@ -46,9 +46,9 @@ function displayTime() {
 }
 function padZero(number) {
     if (number < 10) {
-        `0${number}`
+      return  `0${number}`
     }
     else{
-       number
+      return number
     }
 }
