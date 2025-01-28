@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name-contain{
+    box-shadow: 1px 1px 10px cyan, inset 1px 1px 10px cyan;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+}
