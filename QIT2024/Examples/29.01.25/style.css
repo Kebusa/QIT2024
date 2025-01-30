@@ -1,0 +1,18 @@
+.forma{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    gap: 10px;
+    border: 1px solid cyan;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px cyan,inset 1px 1px 5px cyan;
+}
+body{
+    background-color: rgb(175, 175, 175);
+}
