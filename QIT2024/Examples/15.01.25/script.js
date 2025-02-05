@@ -1,13 +1,16 @@
 const button = document.getElementById('button')
-const input = document.getElementById('input')
+let city = document.getElementById('input').value
 
 const apiKey = "fb2cff02b71168e9f0c68fd3f83d168a"
 const api = "https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric"
 
 
 
+
+
+
 button.addEventListener('click', () => {
-    if (input.value == data.name) {
+    if (city.value == data.name) {
         fetchData();
     }
     else{
